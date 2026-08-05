@@ -48,3 +48,23 @@ footer {
     margin: 10px;
   }
 }
+.market-card {
+  display: inline-block;
+  width: 28%;
+  margin: 10px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.market-card h3 {
+  color: #0b3d91;
+}
+
+@media (max-width: 768px) {
+  .market-card {
+    width: 90%;
+  }
+}
