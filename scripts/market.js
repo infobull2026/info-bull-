@@ -1,16 +1,16 @@
 function loadMarketData() {
 
   document.getElementById("nepseIndex").innerHTML =
-  "Index Value: Loading...";
+  "Index Value: 2650.50";
 
   document.getElementById("nepseChange").innerHTML =
-  "Change: Loading...";
+  "Change: +12.25 (+0.46%)";
 
   document.getElementById("turnover").innerHTML =
-  "Amount: Loading...";
+  "Amount: Rs. 5,000,000,000";
 
   document.getElementById("marketStatus").innerHTML =
-  "Market data connection ready.";
+  "Market Open";
 
 }
 
