@@ -1,3 +1,4 @@
+console.log("New search file loaded");
 function searchCompany() {
 
   let company = document.getElementById("companySearch").value.toUpperCase();
