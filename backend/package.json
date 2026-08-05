@@ -1,0 +1,12 @@
+{
+  "name": "infobull-backend",
+  "version": "1.0.0",
+  "description": "Info Bull NEPSE data backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
