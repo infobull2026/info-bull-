@@ -1,1 +1,1 @@
-YOUR_BACKEND_URL
+const response = await fetch("https://info-bull.onrender.com/market");
