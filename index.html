@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,14 +20,34 @@
   <a href="#">Market</a>
   <a href="#">News</a>
   <a href="#">Companies</a>
-<button onclick="toggleDarkMode()">
-  🌙 Dark Mode
-</button>
+
+  <button onclick="toggleDarkMode()">
+    🌙 Dark Mode
+  </button>
 </nav>
 
 <section>
-  <h2>NEPSE Market Dashboard</h2>
-  <section>
+  <h2>📊 NEPSE Market Dashboard</h2>
+
+  <div class="market-card">
+    <h3>NEPSE Index</h3>
+    <p>Index Value: --</p>
+    <p>Change: --%</p>
+  </div>
+
+  <div class="market-card">
+    <h3>Total Turnover</h3>
+    <p>Amount: --</p>
+  </div>
+
+  <div class="market-card">
+    <h3>Market Status</h3>
+    <p>Market data will update here.</p>
+  </div>
+</section>
+
+
+<section>
   <h2>🔍 Company Search</h2>
 
   <input 
@@ -43,88 +64,75 @@
   </p>
 </section>
 
-  <div class="market-card">
-  <h3>NEPSE Index</h3>
-  <p>Index Value: --</p>
-  <p>Change: --%</p>
-</div>
-
-<div class="market-card">
-  <h3>Total Turnover</h3>
-  <p>Amount: --</p>
-</div>
-
-<div class="market-card">
-  <h3>Market Status</h3>
-  <p>Market data will update here.</p>
-</div>
-</section>
 
 <section>
+  <h2>📈 Top Gainers & 📉 Top Losers</h2>
+
   <div class="stock-box">
-  <h3>📈 Top Gainers</h3>
-  <table>
-    <tr>
-      <th>Company</th>
-      <th>Change</th>
-    </tr>
-    <tr>
-      <td>Company Name</td>
-      <td>+0.00%</td>
-    </tr>
-  </table>
-</div>
+    <h3>📈 Top Gainers</h3>
 
-<div class="stock-box">
-  <h3>📉 Top Losers</h3>
-  <table>
-    <tr>
-      <th>Company</th>
-      <th>Change</th>
-    </tr>
-    <tr>
-      <td>Company Name</td>
-      <td>-0.00%</td>
-    </tr>
-  </table>
-</div>
-  <div>
-    <h3>Top Gainers</h3>
-    <p>Stock data will appear here</p>
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Change</th>
+      </tr>
+
+      <tr>
+        <td>Company Name</td>
+        <td>+0.00%</td>
+      </tr>
+    </table>
   </div>
 
-  <div>
-    <h3>Top Losers</h3>
-    <p>Stock data will appear here</p>
+
+  <div class="stock-box">
+    <h3>📉 Top Losers</h3>
+
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Change</th>
+      </tr>
+
+      <tr>
+        <td>Company Name</td>
+        <td>-0.00%</td>
+      </tr>
+    </table>
   </div>
+
 </section>
+
 
 <section>
   <h2>📰 Latest Market News</h2>
 
-<div class="news-card">
-  <h3>Market Update</h3>
-  <p>Latest Nepal stock market updates will appear here.</p>
-  <small>Info Bull News</small>
-</div>
+  <div class="news-card">
+    <h3>Market Update</h3>
+    <p>Latest Nepal stock market updates will appear here.</p>
+    <small>Info Bull News</small>
+  </div>
 
-<div class="news-card">
-  <h3>Company News</h3>
-  <p>Company announcements and financial reports will appear here.</p>
-  <small>Info Bull News</small>
-</div>
+  <div class="news-card">
+    <h3>Company News</h3>
+    <p>Company announcements and financial reports will appear here.</p>
+    <small>Info Bull News</small>
+  </div>
 
-<div class="news-card">
-  <h3>Market Analysis</h3>
-  <p>Daily analysis and investor insights will appear here.</p>
-  <small>Info Bull News</small>
-</div>
+  <div class="news-card">
+    <h3>Market Analysis</h3>
+    <p>Daily analysis and investor insights will appear here.</p>
+    <small>Info Bull News</small>
+  </div>
+
 </section>
+
 
 <footer>
   <p>© 2026 Info Bull</p>
   <p>Facebook | Instagram</p>
 </footer>
+
 
 <script src="scripts/search.js"></script>
 <script src="scripts/darkmode.js"></script>
