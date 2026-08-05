@@ -1,4 +1,3 @@
-alert("Market JS version 2 loaded");
 function loadMarketData() {
 
   document.getElementById("nepseIndex").innerHTML =
