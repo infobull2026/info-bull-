@@ -68,3 +68,34 @@ footer {
     width: 90%;
   }
 }
+.stock-box {
+  display: inline-block;
+  width: 42%;
+  margin: 10px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background: #0b3d91;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .stock-box {
+    width: 90%;
+  }
+}
