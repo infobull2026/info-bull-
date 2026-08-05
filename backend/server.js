@@ -5,9 +5,9 @@ const app = express();
 app.get("/market", (req, res) => {
 
   res.json({
-    index: "Loading",
-    change: "Loading",
-    turnover: "Loading",
+    index: "2650.50",
+    change: "+12.25 (+0.46%)",
+    turnover: "Rs. 5,000,000,000",
     status: "Market Open"
   });
 
