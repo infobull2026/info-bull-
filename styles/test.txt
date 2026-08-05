@@ -24,6 +24,11 @@ nav a {
   margin: 15px;
 }
 
+nav button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
 section {
   background: white;
   margin: 20px;
@@ -42,18 +47,15 @@ footer {
   padding: 20px;
 }
 
-@media (max-width: 600px) {
-  nav a {
-    display: block;
-    margin: 10px;
-  }
-}
+
+/* NEPSE Dashboard */
+
 .market-card {
   display: inline-block;
   width: 28%;
   margin: 10px;
   padding: 20px;
-  background: #ffffff;
+  background: white;
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -63,11 +65,9 @@ footer {
   color: #0b3d91;
 }
 
-@media (max-width: 768px) {
-  .market-card {
-    width: 90%;
-  }
-}
+
+/* Stock Tables */
+
 .stock-box {
   display: inline-block;
   width: 42%;
@@ -94,11 +94,9 @@ th {
   color: white;
 }
 
-@media (max-width: 768px) {
-  .stock-box {
-    width: 90%;
-  }
-}
+
+/* News Cards */
+
 .news-card {
   display: inline-block;
   width: 28%;
@@ -114,70 +112,52 @@ th {
   color: #0b3d91;
 }
 
-.news-card small {
-  color: #555;
+
+/* Dark Mode */
+
+.dark {
+  background: #121212;
+  color: white;
 }
 
+.dark header {
+  background: #000;
+}
+
+.dark nav {
+  background: #111;
+}
+
+.dark section,
+.dark .market-card,
+.dark .stock-box,
+.dark .news-card {
+  background: #1e1e1e;
+  color: white;
+}
+
+.dark h2,
+.dark h3 {
+  color: #4da3ff;
+}
+
+.dark footer {
+  background: #000;
+}
+
+
+/* Mobile */
+
 @media (max-width: 768px) {
+
+  .market-card,
+  .stock-box,
   .news-card {
     width: 90%;
   }
-}
-.dark {
-  background: #121212;
-  color: white;
-}
 
-.dark header {
-  background: #000;
-}
-
-.dark nav {
-  background: #111;
-}
-
-.dark section,
-.dark .market-card,
-.dark .stock-box,
-.dark .news-card {
-  background: #1e1e1e;
-  color: white;
-}
-
-.dark h2,
-.dark h3 {
-  color: #4da3ff;
-}
-
-.dark footer {
-  background: #000;
-}
-.dark {
-  background: #121212;
-  color: white;
-}
-
-.dark header {
-  background: #000;
-}
-
-.dark nav {
-  background: #111;
-}
-
-.dark section,
-.dark .market-card,
-.dark .stock-box,
-.dark .news-card {
-  background: #1e1e1e;
-  color: white;
-}
-
-.dark h2,
-.dark h3 {
-  color: #4da3ff;
-}
-
-.dark footer {
-  background: #000;
+  nav a {
+    display: block;
+    margin: 10px;
+  }
 }
