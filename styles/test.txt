@@ -152,3 +152,32 @@ th {
 .dark footer {
   background: #000;
 }
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark header {
+  background: #000;
+}
+
+.dark nav {
+  background: #111;
+}
+
+.dark section,
+.dark .market-card,
+.dark .stock-box,
+.dark .news-card {
+  background: #1e1e1e;
+  color: white;
+}
+
+.dark h2,
+.dark h3 {
+  color: #4da3ff;
+}
+
+.dark footer {
+  background: #000;
+}
